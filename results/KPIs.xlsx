@@ -1,0 +1,6 @@
+KPI	simulated annealing	EDD	genetic algorithm	ant colony	RL (A3C)
+tardiness	0	0	0	327039	42752
+# large set-ups	128	160	141	166	134
+makespan	17825	19428	19713	20046	19383
+# late jobs	0	0	0	51	22
+diff makespan	28	3738	2469	3093	2042
