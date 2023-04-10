@@ -247,7 +247,7 @@ class ProductionState:
 # In[3]:
 
 
-def load_and_assign(path="list_of_jobs.dat", num_machines=4):
+def load_and_assign(path="tectron1.dat", num_machines=4):
     # read job_list from file and assign jobs one after another onto machines
     p = ProductionState(num_machines)
     with open(path) as job_list_in:
@@ -350,7 +350,7 @@ incremental_steps = 500
 n_cylces = 10
 factor = 2.0
 
-p = load_and_assign(path="./list_of_jobs.dat", num_machines=n_machines)
+p = load_and_assign(path="data/tectron1.dat", num_machines=n_machines)
 # remember initial state for reconstruction of genetic list
 p_init = p
 # get rid of transient effects
